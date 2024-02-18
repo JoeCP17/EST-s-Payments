@@ -11,3 +11,24 @@
 3. 송금 후에는 계좌잔액을 노출해야 한다.
 4. 송금 내역은 5개월동안 보장되고 그 이후의 내역은 삭제되어야 한다.
 
+
+## 도메인 
+- Member ( 유저 )
+  - id 
+  - name 
+  - createdAt
+
+- remittance ( 송금 )
+   - id 
+   - senderId 
+   - receiverId 
+   - money 
+   - createdAt
+
+- Money ( 금액 )
+  - money
+
+- remittanceHistory ( 송금 내역 )
+  - id 
+  - remittances
+  - createdAt
